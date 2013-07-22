@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.alphasoftware.alphascan"
+        id        = "com.adjustablesoftware.alphabcscan"
         version   = "1.0.0">
 
     <name>Alpha UX Scan</name>
@@ -12,7 +12,7 @@
         An Alpha Anywhere / PhoneGap app for scanning a barcode from a UX Component
     </description>
 
-    <author href="http://www.alphasoftware.com" email="bob.moore@alphasoftware.com">
+    <author href="http://www.adjustablesofware.com" email="rune.dkates@rogers.com">
         R.E. Moore Jr.
     </author>
 
@@ -54,8 +54,7 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-	<gap:plugin name="BarcodeScanner" />
-
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
