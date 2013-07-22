@@ -6,10 +6,10 @@
         id        = "com.alphasoftware.alphascan"
         version   = "1.0.0">
 
-    <name>AlphaScan</name>
+    <name>Alpha UX Scan</name>
 
     <description>
-        An Alpha Anywhere / PhoneGap app for scanning and loading from a QR Code
+        An Alpha Anywhere / PhoneGap app for scanning a barcode from a UX Component
     </description>
 
     <author href="http://www.alphasoftware.com" email="bob.moore@alphasoftware.com">
