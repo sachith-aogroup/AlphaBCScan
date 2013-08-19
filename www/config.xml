@@ -13,7 +13,7 @@
     </description>
 
     <author href="http://www.adjustablesofware.com" email="rune.dkates@rogers.com">
-        R.E. Moore Jr.
+        David Kates
     </author>
 
     <!--
@@ -21,7 +21,7 @@
         The 'device' permission is required for the 'deviceready' event.
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
-  <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
 	<feature name="http://api.phonegap.com/1.0/frontcamera"/>
 	<feature name="http://api.phonegap.com/1.0/file"/>
 
